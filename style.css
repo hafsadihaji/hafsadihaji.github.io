@@ -1,0 +1,97 @@
+h1 ,h2,p{
+    text-align: center ;
+    color:rgb(1, 8, 9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+ body{
+    background-color: lightblue;
+
+} 
+  .me{
+    justify-content: space-between;
+        text-shadow: 30ex;
+     display: table;
+        font-size: medium;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: auto;
+        width: auto;
+        margin: auto;
+         border-radius: 60px;
+       animation-duration: 5s;
+        
+}   
+
+ul{
+    justify-content: center;
+    margin: auto;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    list-style: armenian;
+     /* list-style: inside;   */
+    /* list-style: none; */
+    padding: 25px 0;
+    border-radius: 25px;
+    border: 0.1px solid #099FFF;
+    background-color: royalblue;
+    box-shadow:0 4px 8px 0 #00FFFF, 0 6px 20px 0 
+    rgba(0, 0, 0, 0.19) ;
+}
+li{
+    margin: auto;
+    color: white;
+    size: 20px;
+    cursor: pointer;
+}
+li:after{
+    display: block;
+    }
+    li:hover:after{
+        transform: scaleX(1);
+    }
+img{
+            background-repeat: no-repeat;
+            background-position: 0 0, center;
+             width: 400px;
+            height: 400px;
+            background-color: white;
+            animation-name: lova;
+            animation-duration: 10s;
+}
+@keyframes lova {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green; }
+}
+
+button{
+    margin: auto;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    list-style: armenian; 
+    text-align: center;
+    color:white;
+    font-size: large;
+    justify-content: left;
+    text-shadow: 30ex;
+    box-shadow:0 4px 8px 0 #00FFFF, 0 6px 20px 0 
+    rgba(31, 1, 1, 0.19) ;
+     border-radius: 40px;
+    border-bottom: 40PX; 
+    animation-duration: 10s; 
+    animation-name: lova;
+}
+submit{
+    color: darkviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    text-align: center;
+}
+hr{
+    border-style: dotted;
+}
