@@ -93,5 +93,13 @@ h3{
     text-align: center;
 }
 hr{
-    border-style: dotted;
+   border-color:blue;
+    border-style:  none none;
+    width: 5%;
+    border-width: 5px;
+     border-top-style: dotted;
+
+   
+    
+   
 }
