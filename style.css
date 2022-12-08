@@ -15,8 +15,7 @@ p{
  body{
     margin: 0px;
     background-color: #8EC3B0;
-    background-image: url();
-   
+
 } 
   .Hafsa{
     text-align: center;
@@ -30,9 +29,7 @@ p{
         width: 40px;
         margin: auto;
          border-radius: 60px;
-       /* animation-duration: 5s; */
 }   
-
 ul{
     font-size: 20px;
     text-decoration: none;
@@ -82,7 +79,6 @@ img{
     50%  {background-color: #9ED5C5;}
     100% {background-color: #8EC3B0; }
 }
-
 button{
     margin: auto;
     width: auto;
