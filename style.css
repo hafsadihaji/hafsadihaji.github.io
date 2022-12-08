@@ -3,8 +3,6 @@ h1 ,h2{
     text-align: center ;
     color:rgb(1, 8, 9);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-
 }
 p{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -21,7 +19,7 @@ p{
     text-align: center;
     justify-content: space-between;
     position: relative;
-        text-shadow: 30ex;
+    text-shadow: 30ex;
      display: table;
         font-size: medium;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
