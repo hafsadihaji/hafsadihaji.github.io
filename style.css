@@ -1,32 +1,41 @@
-h1 ,h2,p{
+h1 ,h2{
     /* border: 30px; */
     text-align: center ;
     color:rgb(1, 8, 9);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 
 }
- body{
-    background-color: #8EC3B0;
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
 
+}
+ body{
+    margin: 0px;
+    background-color: #8EC3B0;
+    background-image: url();
+   
 } 
-  .me{
+  .Hafsa{
+    text-align: center;
     justify-content: space-between;
     position: relative;
         text-shadow: 30ex;
      display: table;
         font-size: medium;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        height: auto;
-        width: auto;
+        height: 30px;
+        width: 40px;
         margin: auto;
          border-radius: 60px;
-       animation-duration: 5s;
-        
+       /* animation-duration: 5s; */
 }   
 
 ul{
-    
+    font-size: 20px;
+    text-decoration: none;
     justify-content: center;
     margin: auto;
     width: auto;
@@ -43,25 +52,27 @@ ul{
     rgba(0, 0, 0, 0.19) ;
 }
 li{
-    
+    font-size: 20px;
     margin: auto;
     color: white;
     size: 20px;
     cursor: pointer;
 }
 li:after{
+    text-decoration: none;
     display: block;
     }
     li:hover:after{
+        text-decoration: none;
         transform: scaleX(1);
     }
 img{
-    
+          
             background-repeat: no-repeat;
             background-position: 0 0, center;
              width: 400px;
             height: 400px;
-            background-color: white;
+            background-color:lightblue;
             animation-name: lova;
             animation-duration: 10s;
 }
@@ -79,17 +90,21 @@ button{
     flex-direction: row;
     list-style: armenian; 
     text-align: center;
-    color:white;
+    color:black;
     font-size: large;
-    justify-content: left;
-    text-shadow: 30ex;
-    box-shadow:0 4px 8px 0 #00FFFF, 0 6px 20px 0 
+     justify-content: left;
+    text-shadow: 30ex; 
+     box-shadow:0 4px 8px 0 #00FFFF, 0 6px 20px 0 
     rgba(31, 1, 1, 0.19) ;
      border-radius: 40px;
     border-bottom: 40PX; 
     animation-duration: 10s; 
     animation-name: lova;
 }
+button:hover {
+    background-color: #FFADBC;
+    color:#D989B5;
+  }
 submit{
     color: darkviolet;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -104,7 +119,35 @@ hr{
     border-width: 5px;
      border-top-style: dotted;
 
-   
-    
-   
 }
+#ana{
+    position: absolute;
+    right:800px;
+    top: 200px;
+    height: 100px;
+    width: 500px;
+    justify-content: space-between;
+    
+}
+button1{
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border-color:antiquewhite ;
+    left:1000px;
+    top: 200px;
+    height: 30px;
+    width: 300px;
+    border-style: solid;
+    border-radius: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: #975C8D;
+    transition-duration: 0.4s;
+    box-shadow:0 4px 8px 0 #00FFFF, 0 6px 20px 0 
+    rgba(0, 0, 0, 0.19) ;
+}
+button1:hover {
+    background-color: #FFADBC;
+    color:#D989B5;
+  }
