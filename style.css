@@ -114,7 +114,7 @@ hr{
 }
 #ana{
     position: absolute;
-    right:800px;
+    right:1000px;
     top: 200px;
     height: 100px;
     width: 500px;
@@ -123,17 +123,16 @@ hr{
 }
 button1{
     text-align: center;
-    justify-content: center;
     position: absolute;
     /* color: black; */
-    font-size: 25px;
+    font-size: 20px;
     border-color:antiquewhite ;
-    left:900px;
-    top: 200px;
+    left:1050px;
+    top: 220px;
     height: 50px;
-     width: 400px; 
+     width: 300px; 
     border-style: solid;
-    border-radius: 50px;
+    border-radius: 40px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-shadow: #975C8D;
     transition-duration: 0.4s;
