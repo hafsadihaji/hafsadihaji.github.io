@@ -115,14 +115,14 @@ submit{
 h3{
     text-align: center;
 }
-/* hr{
+hr{
     text-align: center;
    border-color:white;
     border-style:  none none;
     width: 6%;
     border-width: 5px;
      border-top-style: dotted;
-} */
+}
 #ana{
     position: absolute;
     right:1000px;
