@@ -1,21 +1,23 @@
-h1 {
+h1{
     text-align: center ;
     color:whitesmoke;
       /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   */
       font-family: 'Sacramento',cursive;
+    
 }
-h2{
-    padding-left:  800px;
+h2,h3 {
+    padding-left:  50%;
     color:whitesmoke;
     font-family: 'Sacramento',cursive;
     font-style: oblique;
     text-decoration: underline;
 }
 p{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Sacramento',cursive;
     font-size: large;
     text-align: center;
-    font-family: monospace;
+    
+    
 }
  body{
     margin: 0;
@@ -71,7 +73,8 @@ li:after{
        text-transform: capitalize;
     }
 img{
-          
+             margin: 30px 30px ;
+            border-radius: 40px;
             background-repeat: no-repeat;
             background-position: 0 0, center;
              width: 400px;
@@ -125,11 +128,13 @@ hr{
 }
 #ana{
     position: absolute;
+    font-family: monospace;
     right:1000px;
     top: 200px;
     height: 100px;
     width: 500px;
     justify-content: space-between;
+
     
 }
 
@@ -160,5 +165,9 @@ button1:hover {
     text-decoration: none;
     
   }
+.bottom-container{
+    bottom: unset;
+}
+
 
  
